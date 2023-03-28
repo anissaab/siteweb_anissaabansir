@@ -94,46 +94,51 @@ nav a:hover {
 	text-align: center;
 }
 
-.project {
-	display: flex;
-	align-items: center;
-	margin-bottom: 40px;
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.project img {
-	width: 300px;
-	height: 200px;
-	object-fit: cover;
-	border-radius: 5px;
+.project {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .project-info {
-	margin-left: 20px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .project-info h3 {
-	font-size: 1.5rem;
-	margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .project-info p {
-	font-size: 1.2rem;
-	margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .project-info a {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #fff;
-	color: #222;
-	border-radius: 5px;
-	text-decoration: none;
-	transition: all 0.2s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #222;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .project-info a:hover {
-	background-color: #222;
-	color: #fff;
+  background-color: #222;
+  color: #fff;
 }
 
 #about {
