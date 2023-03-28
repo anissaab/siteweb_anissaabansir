@@ -3,67 +3,77 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Computer Science Engineer Portfolio</title>
-	<link rel="stylesheet" href="styles.css">
+	<title>Anissa Abansir - Embedded Engineer</title>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
-		<h1>My Portfolio</h1>
+		<div class="menu-toggle">
+			<div class="hamburger"></div>
+		</div>
 		<nav>
 			<ul>
+				<li><a href="#hero">Home</a></li>
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#contact">Contact Me</a></li>
 			</ul>
 		</nav>
+		<div class="hero-text">
+			<h1>Anissa Abansir - Embedded Engineer</h1>
+			<p>A highly skilled and experienced Embedded Systems Engineer</p>
+			<a href="#" class="resume-link">Download Resume</a>
+		</div>
 	</header>
-
-	<section id="about">
-		<h2>About Me</h2>
-		<p>I am a computer science engineer with a passion for coding and programming. I have worked on several projects and have experience in various programming languages like C++, Java, Python, etc.</p>
-	</section>
-
-	<section id="projects">
-		<h2>Projects</h2>
-		<div class="project">
-			<img src="project1.jpg" alt="Project 1">
-			<h3>Project 1</h3>
-			<p>Description of Project 1</p>
-			<a href="#">View Project</a>
-		</div>
-		<div class="project">
-			<img src="project2.jpg" alt="Project 2">
-			<h3>Project 2</h3>
-			<p>Description of Project 2</p>
-			<a href="#">View Project</a>
-		</div>
-		<div class="project">
-			<img src="project3.jpg" alt="Project 3">
-			<h3>Project 3</h3>
-			<p>Description of Project 3</p>
-			<a href="#">View Project</a>
-		</div>
-	</section>
-
-	<section id="contact">
-		<h2>Contact Me</h2>
-		<form action="">
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name" required><br>
-
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" required><br>
-
-			<label for="message">Message:</label>
-			<textarea id="message" name="message" required></textarea><br>
-
-			<input type="submit" value="Send">
-		</form>
-	</section>
-
-	<footer>
-		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
-	</footer>
-</body>
-</html>
+	
+	<main>
+		<section id="about">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<p>I am a highly skilled and experienced Embedded Systems Engineer with over 5 years of experience in designing and implementing embedded systems solutions for a variety of industries. My skills include firmware development, microcontroller programming, hardware design, and system integration.</p>
+			</div>
+			<div class="skills">
+				<h3>Skills</h3>
+				<ul>
+					<li>Embedded Systems Design</li>
+					<li>Firmware Development</li>
+					<li>Microcontroller Programming</li>
+					<li>Hardware Design</li>
+					<li>System Integration</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<img src="project1.jpg" alt="Project 1">
+				<div class="project-info">
+					<h3>Project 1</h3>
+					<p>Description of Project 1</p>
+					<a href="https://github.com/myusername/project1" target="_blank">View on GitHub</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="project2.jpg" alt="Project 2">
+				<div class="project-info">
+					<h3>Project 2</h3>
+					<p>Description of Project 2</p>
+					<a href="https://github.com/myusername/project2" target="_blank">View on GitHub</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="project3.jpg" alt="Project 3">
+				<div class="project-info">
+					<h3>Project 3</h3>
+					<p>Description of Project 3</p>
+					<a href="https://github.com/myusername/project3" target="_blank">View on GitHub</a>
+				</div>
+			</div>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<div class="contact-info">
+				<p>Feel free to contact me
