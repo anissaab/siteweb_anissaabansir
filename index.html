@@ -20,16 +20,22 @@
 
 	<main>
 		<section class="hero-banner">
-			<h2>Welcome to my portfolio!</h2>
-			<p>I'm Anissa Abansir, an Embedded Engineer. Feel free to explore my projects and contact me for any inquiries.</p>
-			<a href="/resume.pdf" class="cta-button">Download my CV</a>
-		</section>
+    <div class="card">
+      <img src="img_avatar.png" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h4><b>Anissa Abansir</b></h4>
+        <p>Software Engineerr</p>
+      </div>
+    </div>
+    <div class="header__hero"><div class="header__hero--heading"><span>Welcome to my portfolio! </span> </div><div class="header__hero--body"><span>I'm Anissa Abansir, an Embedded Engineer.</span> <span class="header__hero--heading-gradient"> Feel free to explore my projects  and contact me for any inquiries.</span></div><span></span>
+</div>		
+<a href="/resume.pdf" class="cta-button">Download my CV</a></section>
 
 		<section id="projects">
 		  <div class="container">
 		    <h2>Projects</h2>
 		    <div class="projects-container">
-		      <div class="project">
+		      <div class="project_1">
 			<div class="project-image">
 			  <img src="cataclean.jpg" alt="CataClean">
 			</div>
@@ -41,23 +47,23 @@ To move the catamaran, it uses Funduino with I2C communication with two Arduino.
 			  <a href="https://github.com/my-project-1">GitHub</a>
 			</div>
 		      </div>
-		      <div class="project">
+		      <div class="project_2">
 			<div class="project-image">
 			  <img src="project-2.jpg" alt="Project 2">
 			</div>
 			<div class="project-info">
-			  <h3>Project 2</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed lectus et est commodo euismod.</p>
+			  <h3>Car with Vision</h3>
+			  <p>With my team, we created a self-driving car using image detection with OpenCV and electronic assembly with PicCam v2, motor, Arduino Uno, Raspberry Pi 3B+, and more. The car was able to drive itself between red and yellow plots, using the camera to detect the plots on the ground and make decisions about where to drive. This required a lot of experimentation and tweaking of the camera settings, as well as programming the car to respond to different situations. Overall, it was a challenging but rewarding project that helped me develop my skills in computer vision and hardware design.</p>
 			  <a href="https://github.com/my-project-2">GitHub</a>
 			</div>
 		      </div>
-		      <div class="project">
+		      <div class="project_3">
 			<div class="project-image">
 			  <img src="project-3.jpg" alt="Project 3">
 			</div>
 			<div class="project-info">
-			  <h3>Project 3</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed lectus et est commodo euismod.</p>
+			  <h3>Data Scrapping</h3>
+			  <p>Accomplished data scraping for a companie in my previous internship, resulting in improved data analysis and decision-making. My contribution was valued by the companies and I received positive feedback from my supervisor. I needed to investigate on how to get informations because of the complexity of som website. I am confident that my attention to detail and technical skills make me a strong candidate.</p>
 			  <a href="https://github.com/my-project-3">GitHub</a>
 			</div>
 		      </div>
@@ -102,11 +108,38 @@ To move the catamaran, it uses Funduino with I2C communication with two Arduino.
 		</section>
 
 		<section id="contact">
+		<div class="contact-header">
 			<h2>Contact Me</h2>
-			<div class="contact-content">
+		</div>
+        <div class="contact-content">
 			<ul>
 			  <li><i class="fa fa-envelope"></i><a href="mailto:anissa.abansir@epita.fr">anissa.abansir@epita.fr</a></li>
 			  <li><i class="fa fa-phone"></i><a href="tel:+33750837113">+33 750837113</a></li>
 			  <li><i class="fa fa-map-marker"></i>Paris, FR</li>
 			</ul>
-		</section>
+		</div><div class="container-form">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    <option value="france">France</option>
+    <option value="uk">UK</option></select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height: 212px; width: 314px;"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</section>
+</main></body>
