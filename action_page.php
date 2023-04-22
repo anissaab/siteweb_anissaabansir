@@ -1,4 +1,5 @@
 <?php
+phpinfo();
 if (isset($_POST['Email'])) {
 
     $email_to = "anissa.abansir@anissaabansir.com";
